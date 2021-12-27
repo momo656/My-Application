@@ -33,7 +33,7 @@ class productsScreen extends StatelessWidget {
     children:
     [
     CarouselSlider(
-      items: model.data? .banners?.map((e) => Image(
+      items: model.data?.banners?.map((e) => Image(
   image: NetworkImage('${e.image}'),
   width: double.infinity,
   fit: BoxFit.cover,
